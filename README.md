@@ -14,7 +14,7 @@
 
 This repository contains the specifications for [`libp2p`](https://libp2p.io), a
 framework and suite of protocols for building peer-to-peer network applications.
-libp2p has several [implementations][libp2p_implementations], with more in development.
+libp2p has several [implementations](https://libp2p.io/projects/), with more in development.
 
 The main goal of this repository is to provide accurate reference documentation
 for the aspects of libp2p that are independent of language or implementation.
