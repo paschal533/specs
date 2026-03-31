@@ -14,7 +14,7 @@
 
 This repository contains the specifications for [`libp2p`](https://libp2p.io), a
 framework and suite of protocols for building peer-to-peer network applications.
-libp2p has several [implementations](https://libp2p.io/projects/), with more in development.
+libp2p has several [implementations][libp2p_implementations], with more in development.
 
 The main goal of this repository is to provide accurate reference documentation
 for the aspects of libp2p that are independent of language or implementation.
@@ -117,7 +117,7 @@ you feel an issue isn't the appropriate place for your topic, please join our
 [contributor's section](https://discuss.libp2p.io/c/contributors).
 
 
-[libp2p_implementations]: https://libp2p.io/implementations
+[libp2p_implementations]: https://libp2p.io/projects/
 [spec_lifecycle]: 00-framework-01-spec-lifecycle.md
 [spec_header]: 00-framework-02-document-header.md
 [spec_identify]: ./identify/README.md
