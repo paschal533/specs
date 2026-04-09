@@ -165,7 +165,7 @@ With the addition of signed peer records, Circuit Relay addresses, multiaddrs
 that contain certificate hashes, etc, it is now much more likely that this
 threshold will be exceeded.
 
-If an a modern implementation's Identify message would exceed this limit, it
+If a modern implementation's Identify message would exceed this limit, it
 should break it up into smaller chunks.
 
 For optimum backwards compatibility the first message SHOULD NOT exceed 2KB.
