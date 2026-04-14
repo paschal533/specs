@@ -216,6 +216,10 @@ For backwards compatibility, if a key algorithm has a prior libp2p specific enco
 The Data field is defined by [Section 7 of RFC
 9052](https://www.rfc-editor.org/rfc/rfc9052#section-7).
 
+The `COSE_Key` MUST be encoded using [CBOR Core Deterministic Encoding (RFC 8949 §4.2)](https://www.rfc-editor.org/rfc/rfc8949#section-4.2). Implementations MUST reject non-deterministic encodings.
+
+Signing and verification for each member are defined by that member's COSE `alg`  parameter.
+
 #### COSE KeySet
 
 The Data field is defined by [Section 7 of RFC
